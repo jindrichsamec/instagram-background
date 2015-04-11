@@ -1,0 +1,29 @@
+{
+  "name": "instagram-background",
+  "version": "1.0.0",
+  "authors": [
+    "Jindrich Samec <jindrich.samec@xjs.cz>"
+  ],
+  "description": "AngularJS directive for CSS background from instagram pictures",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "instagram",
+    "background",
+    "api",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/jindrichsamec/instagram-background",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15"
+  }
+}
