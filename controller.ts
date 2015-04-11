@@ -28,8 +28,6 @@ module xjs {
 		}
 
 		public init(): void {
-			this.$element.css('background-color', 'red');
-
 			var url = InstagramBackgroundCtrl.FETCH_IMAGES_URL;
 			url = url.replace(InstagramBackgroundCtrl.CLIENT_ID_PLACEHOLDER, this.clientId);
 			url = url.replace(InstagramBackgroundCtrl.USER_ID_PLACEHOLDER, this.userId);
@@ -49,8 +47,6 @@ module xjs {
 		public random(min: number, max: number): number {
 			return Math.floor(Math.random() * max) + min;
 		}
-
-
 
 	}
 
