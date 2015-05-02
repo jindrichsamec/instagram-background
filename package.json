@@ -1,0 +1,28 @@
+{
+  "name": "instagram-background",
+  "version": "1.0.0",
+  "description": "Angular directive that set instagram photos as background of any HTML element",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.5.2",
+    "gulp-mocha": "^2.0.1",
+    "gulp-typescript": "^2.6.0",
+    "gulp-uglify": "^1.2.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jindrichsamec/instagram-background.git"
+  },
+  "author": "Jindrich Samec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jindrichsamec/instagram-background/issues"
+  },
+  "homepage": "https://github.com/jindrichsamec/instagram-background"
+}
